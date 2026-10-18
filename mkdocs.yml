@@ -1,0 +1,71 @@
+site_name: 理解技术 · 驾驭 AI (Understanding Technology, Working with AI)
+site_description: 从计算机基础到 AI 工程实践的开放式学习体系
+site_author: Wayne Wei
+site_url: https://github.com/weixc0856-cell/open-learning-engineering
+repo_url: https://github.com/weixc0856-cell/open-learning-engineering
+repo_name: weixc0856-cell/open-learning-engineering
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: 切换至暗色模式
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: 切换至亮色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+
+nav:
+  - 项目导引:
+      - 欢迎主页: index.md
+      - 项目初衷与愿景: overview.md
+      - 教学哲学与证据分级: principles.md
+      - 全景路线图 (6 Seasons): roadmap.md
+      - 质量验收网关: quality-gates.md
+      - 版权与许可指引: licensing.md
+  - 核心课程 (Seasons):
+      - S01 计算环境与开发工具: seasons/01-computer-foundations/index.md
+      - S02 软件工程与系统边界: seasons/02-software-engineering/index.md
+      - S03 Python 与科学计算: seasons/03-python-and-scientific-computing/index.md
+      - S04 计算机体系结构与 GPU: seasons/04-computer-architecture-gpu/index.md
+      - S05 深度学习与科学机器学习: seasons/05-deep-learning-sciml/index.md
+      - S06 大模型工程与受控自动化: seasons/06-llm-and-agents/index.md
+  - 证据与核验 (Evidence):
+      - 权威原始资料索引: references/source-index.md
+      - 许可证合规审计: references/license-audit.md
+
+plugins:
+  - search

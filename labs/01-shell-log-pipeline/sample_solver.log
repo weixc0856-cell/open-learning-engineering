@@ -1,0 +1,12 @@
+[INFO] 2026-10-18 10:00:00 - Initializing CFD Multi-grid Solver v3.2...
+[INFO] 2026-10-18 10:00:01 - Mesh cells: 1024000, Boundaries: 6
+Iteration: 1, Residual: 1.000000e+00, Time: 0.12s
+Iteration: 2, Residual: 4.821000e-01, Time: 0.24s
+Iteration: 3, Residual: 1.254000e-01, Time: 0.36s
+Iteration: 4, Residual: 3.412000e-02, Time: 0.48s
+Iteration: 5, Residual: 8.920000e-03, Time: 0.60s
+Iteration: 6, Residual: 9.810000e-04, Time: 0.72s
+Iteration: 7, Residual: 8.420000e-05, Time: 0.84s
+[INFO] 2026-10-18 10:00:02 - Residual dropped below target tolerance 1e-4.
+SOLVER_STATUS: CONVERGED
+[INFO] 2026-10-18 10:00:02 - Solver completed successfully.

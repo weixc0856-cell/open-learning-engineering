@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this educational project or code in your research or learning, please cite it as below."
+title: "Understanding Technology, Working with AI: An Open Learning Engineering Framework"
+authors:
+  - family-names: "Wei"
+    given-names: "Wayne"
+    email: "weixc0856@gmail.com"
+repository-code: "https://github.com/weixc0856-cell/open-learning-engineering"
+url: "https://github.com/weixc0856-cell/open-learning-engineering"
+abstract: "An open-source, evidence-based learning framework bridging computer fundamentals, software engineering, and AI systems."
+keywords:
+  - "computer science education"
+  - "software engineering"
+  - "artificial intelligence"
+  - "large language models"
+  - "AI agents"
+  - "vibe coding"
+license: "MIT"
+date-released: 2026-10-18
