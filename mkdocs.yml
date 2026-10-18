@@ -31,6 +31,7 @@ theme:
     - search.highlight
     - content.code.copy
     - content.action.edit
+    - content.tabs.link
 
 markdown_extensions:
   - admonition
@@ -45,6 +46,9 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: false
   - pymdownx.arithmatex:
       generic: true
 
@@ -56,6 +60,7 @@ nav:
       - 全景路线图 (6 Seasons): roadmap.md
       - 质量验收网关: quality-gates.md
       - 版权与许可指引: licensing.md
+      - 单元讲义模板: lesson-template.md
   - 核心课程 (Seasons):
       - S01 计算环境与开发工具: seasons/01-computer-foundations/index.md
       - S02 软件工程与系统边界: seasons/02-software-engineering/index.md
@@ -66,6 +71,11 @@ nav:
   - 证据与核验 (Evidence):
       - 权威原始资料索引: references/source-index.md
       - 许可证合规审计: references/license-audit.md
+
+extra_css:
+  - assets/stylesheets/extra.css
+extra_javascript:
+  - assets/javascripts/learning.js
 
 plugins:
   - search

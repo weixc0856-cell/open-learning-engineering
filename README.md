@@ -5,7 +5,7 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Docs-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
+[![CI](https://github.com/weixc0856-cell/open-learning-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/weixc0856-cell/open-learning-engineering/actions/workflows/ci.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ---
@@ -115,6 +115,10 @@ open-learning-engineering/
 ```
 
 ---
+
+## 🧭 课程内容与交互方式
+
+在线文档以“课程地图 → 分季导览 → 单元讲解 → 实验/自测”为主线。第三至第五季包含可展开的章节、代码片段与页面内自测；自测在浏览器本地执行，不会把答案发送到服务器。路线图列出的 30 个单元是规划范围，并不意味着每个单元都已达到完整讲义级别。欢迎通过 Issue 指出概念错误、缺失的练习或无法复现的步骤。
 
 ## 🚀 快速开始 (Getting Started)
 

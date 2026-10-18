@@ -1,0 +1,15 @@
+:root { --ole-border: var(--md-default-fg-color--lightest); }
+.md-typeset .season-meta { padding: .8rem 1rem; border: 1px solid var(--ole-border); border-radius: .6rem; background: var(--md-code-bg-color); margin: 1rem 0 1.5rem; }
+.md-typeset .tag { display: inline-block; margin-left: .35rem; padding: .05rem .45rem; border: 1px solid var(--ole-border); border-radius: 999px; font-size: .68rem; font-weight: 500; vertical-align: .12rem; }
+.md-typeset details { border-radius: .45rem; }
+.md-typeset details > summary { font-size: .96rem; }
+.md-typeset .knowledge-check { margin: 1.5rem 0; padding: 1rem 1.2rem; border: 1px solid var(--ole-border); border-radius: .7rem; }
+.md-typeset .knowledge-check label { display: block; margin: .45rem 0; padding: .35rem .5rem; border-radius: .35rem; cursor: pointer; }
+.md-typeset .knowledge-check label:hover { background: var(--md-code-bg-color); }
+.md-typeset .knowledge-check input { margin-right: .45rem; }
+.md-typeset .quiz-submit { margin-top: .5rem; padding: .45rem .8rem; border: 0; border-radius: .35rem; background: var(--md-primary-fg-color); color: var(--md-primary-bg-color); cursor: pointer; font: inherit; }
+.md-typeset .quiz-result { font-weight: 600; margin-bottom: 0; }
+.md-typeset .quiz-feedback { padding: .5rem .75rem; border-left: 3px solid var(--md-accent-fg-color); background: var(--md-code-bg-color); border-radius: 0 .35rem .35rem 0; }
+.md-typeset .learning-path { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: .75rem; margin: 1rem 0; }
+.md-typeset .learning-path > div { border: 1px solid var(--ole-border); border-radius: .6rem; padding: .8rem; }
+@media (prefers-reduced-motion: no-preference) { .md-typeset details { transition: border-color .15s ease; } }
